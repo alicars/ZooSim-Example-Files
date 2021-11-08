@@ -18,7 +18,7 @@ public class LoadingManager : MonoBehaviour
   */
 
     public static LoadingManager mainController;
-    // used by ImportantMans , we have to make sure we don't have two LoadingMans
+    // used by ImportantMans , we have to make sure we don't have two LoadingMans when we go from scene to scene 
 
     public bool saveMe; // performs a scene save only (not that useful)
     public bool loadMe;
